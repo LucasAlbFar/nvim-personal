@@ -18,6 +18,7 @@ return {
                   reportUnknownParameterType = "none",
                   reportMissingParameterType = "none",
                   reportImplicitOverride = "none",
+                  reportArgumentType = "none",
                 },
               },
             },
