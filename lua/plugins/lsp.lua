@@ -19,6 +19,7 @@ return {
                   reportMissingParameterType = "none",
                   reportImplicitOverride = "none",
                   reportArgumentType = "none",
+                  reportAttributeAccessIssue = "none",
                 },
               },
             },
