@@ -3,15 +3,8 @@ return {
     "neovim/nvim-lspconfig",
     opts = {
       servers = {
-        basedpyright = {
-          settings = {
-            basedpyright = {
-              analysis = {
-                typeCheckingMode = "standard",
-              },
-            },
-          },
-        },
+        pylsp = { enabled = false },
+        codebook = { enabled = false },
       },
     },
   },
