@@ -48,7 +48,6 @@ return {
         "pyproject-flake8",
         "pyproject-fmt",
         "pytest-language-server",
-        "python-lsp-server",
         "shfmt",
         "stylua",
         "uv",
