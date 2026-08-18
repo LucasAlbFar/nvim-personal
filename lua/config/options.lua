@@ -10,4 +10,5 @@ if vim.env.SSH_CONNECTION then
 
   -- resposta mais rápida a teclas compostas e ao Esc
   vim.opt.ttimeoutlen = 10
+  vim.opt.autowriteall = true
 end
