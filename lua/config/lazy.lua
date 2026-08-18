@@ -32,7 +32,9 @@ require("lazy").setup({
   },
   install = { colorscheme = { "tokyonight", "habamax" } },
   checker = {
-    enabled = true, -- check for plugin updates periodically
+    -- desliga a verificação periódica em sessão SSH:
+    -- o ruído vem do progresso das tasks (Running task fetch), não do notify
+    enabled = vim.env.SSH_CONNECTION == nil,
     notify = false, -- notify on update
   }, -- automatically check for plugin updates
   performance = {
