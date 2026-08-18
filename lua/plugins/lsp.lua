@@ -9,18 +9,7 @@ return {
           settings = {
             basedpyright = {
               analysis = {
-                typeCheckingMode = "standard",
-                diagnosticSeverityOverrides = {
-                  reportAny = "none",
-                  reportUnknownArgumentType = "none",
-                  reportUnknownVariableType = "none",
-                  reportUnknownMemberType = "none",
-                  reportUnknownParameterType = "none",
-                  reportMissingParameterType = "none",
-                  reportImplicitOverride = "none",
-                  reportArgumentType = "none",
-                  reportAttributeAccessIssue = "none",
-                },
+                typeCheckingMode = "off",
               },
             },
           },
